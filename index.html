@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="decription" content="This is my Portfolio page, showcasing the information about me as well as my education background and the services I offer.">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/1ca2e1efe3.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/mylogo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-text">
+            <h1><span>Hi,</span> I am The<br><span>Sebiotimo Abdullateef</span> </h1>
+        </div>
+    </div>
+    <!-----------About----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h2 id="titleabout">About Me</h2>
+                    <p>I am The Sebiotimo Abdullateef (TSA), a passionate nursing student dedicated to academic excellence, leadership, and community impact. Throughout my education, I have consistently ranked among the top 1% of my class and actively participated in competitions that showcase my skills in critical thinking, public speaking, and knowledge application.
+
+Beyond academics, I am deeply committed to leadership and volunteering. On the Digital Skills level, I am a Website Designer with 5 years of experience in HTML5, CSS3, Bootstrap, Javascript, Python and Django. I have helped various firms increase sales through their various websites. 
+                    <table>
+                        <tr id="tr1">
+                            <th>Skills</th>
+                            <th>Experience</th>
+                            <th>Education</th>
+                        </tr>
+                        <tr>
+                        <td>Website Design</td>
+                        <td>Webpeak Technologies</td>
+                        <td>Usmanu Danfodiyo University, Sokoto</td>
+                        <tr id="tr2">
+                            <td> Designing Websites</td>
+                            <td>2018-2020</td>
+                            <td>Bachelor of Nursing Sciences</td>
+                        <tr>
+                        <td>Writing</td>
+                        <td>Writers Hub</td>
+                        <td>Islamic Model College</td> </tr>
+                        <tr id="tr3">
+                            <td> Writing Web Contents</td>
+                            <td>2020-2024</td>
+                            <td>SSCE</td>
+                        </tr>
+                        <tr>
+                        <td>Socia Media Management</td>
+                        <td>UDUS Debate Club</td>
+                        <td>Caro International Schools</td>
+                        <tr id="tr3">
+                            <td> Managing Social Media Handles</td>
+                            <td>2020-Till Date</td>
+                            <td>Primary School Leaving Certificate</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Services------------------------------->
+    <div id="services">
+        <div class="container">
+            <h2 class="titleabout">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Website Design</h3>
+                    <p>As a Website Designer, I am entrusted with both the visual and functional presentation of websites. I conceptualize, design, and implement page layouts, user interface elements, and interactive features that resonate with both aesthetic appeal and user-friendliness. My responsibilities include conducting client consultations to define goals and branding, creating wireframes and responsive layouts, collaborating with developers to ensure seamless integration, and optimizing designs across devices and browsers </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h3>Writing</h3>
+                    <p>In the capacity of a Website Writer, I craft clear, compelling, and SEO‑optimized content that aligns precisely with brand identity and business objectives. My responsibilities encompass conducting thorough research, generating subject-relevant ideas, and producing high‑quality written material such as landing pages, blog articles, product descriptions, and press releases. I also refine and proofread content to maintain editorial standards, manage content via CMS platforms, and collaborate with marketing and SEO teams to maximize audience reach </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h3>Social Media Management</h3>
+                    <p>As a Social Media Manager, I oversee the development and execution of the organization’s social media strategy across multiple platforms. I design and schedule engaging posts, manage the daily operations of social channels (Facebook, Instagram, LinkedIn, Twitter, etc.), and foster community interaction by responding to comments and messages in a timely manner. In addition, I monitor performance and trend analytics to evaluate campaign effectiveness, adjust strategies in real time, and recommend improvements to enhance brand visibility and customer engagement </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------Contact------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="titleabout">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> abdullateefsebiotimo@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +2348101589091</p>
+                    <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                <a href="mycv.pdf" download class="btn">Download My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+        <p>Copyright &copy; Designed by The Sebiotimo Abdullateef</p>
+        </div>
+    </div>
+</body>
+</html>
